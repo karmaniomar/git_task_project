@@ -1,7 +1,7 @@
-# Before
-# a = 25
-# b = a * 0.2
+def add_numbers(a, b):
+    return a + b
 
-# After
-user_age = 25
-calculated_discount = user_age * 0.2
+
+# Example usage
+result = add_numbers(5, 3)
+print(f"The sum is: {result}")
